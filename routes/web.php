@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('plantilha');
+});
+
+Route::get('/bemvindo', function () {
+    return view('bemvindo');
+});
+
+Route::get('/novatela', function (){
+    return view('novatela');
 });
