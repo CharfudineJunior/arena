@@ -1,4 +1,4 @@
 @extends('plantilha')
 @section('content')
-<label>White Space</label>
+<label>White space</label>
 @endsection
