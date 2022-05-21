@@ -1,4 +1,4 @@
 @extends('plantilha')
 @section('content')
-<label>White Space</label>
+<label>White Space - Edited on branch teste</label>
 @endsection
