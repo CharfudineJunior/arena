@@ -18,9 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/bemvindo', function () {
-    return view('bemvindo');
+    return view('inq/bemvindo');
 });
 
 Route::get('/novatela', function (){
-    return view('novatela');
+    return view('inq/novatela');
 });
